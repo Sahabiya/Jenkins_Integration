@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "b5bcf057-6aa5-4e42-b94a-e56816e4c316",
+		"name": "SpeechLoginAPIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TataLogin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"client\":\"tatacomm\",\r\n    \"password\":\"14430726-50F1-4F91-B391-B51DC8605619\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tatacommunicationsapi.s.zoispeech.com/login",
+					"protocol": "https",
+					"host": [
+						"tatacommunicationsapi",
+						"s",
+						"zoispeech",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TmobilePandT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"client\":\"tmobile\",\r\n\"password\":\"5F0F9A51-6174-45A0-86D3-CC6D0D87A8FC\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.pandt.tmobile.s.zoispeech.com/login",
+					"protocol": "https",
+					"host": [
+						"api",
+						"pandt",
+						"tmobile",
+						"s",
+						"zoispeech",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
