@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"client\":\"tatacommi\",\r\n    \"password\":\"14430726-50F1-4F91-B391-B51DC8605618\"\r\n}",
+					"raw": "{\r\n    \"client\":\"tatacomm\",\r\n    \"password\":\"14430726-50F1-4F91-B391-B51DC8605619\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -42,7 +42,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"client\":\"tmobiles\",\r\n\"password\":\"5F0F9A51-6174-45A0-86D3-CC6D0D87A8FC\"}",
+					"raw": "{\"client\":\"tmobile\",\r\n\"password\":\"5F0F9A51-6174-45A0-86D3-CC6D0D87A8FC\"}",
 					"options": {
 						"raw": {
 							"language": "json"
